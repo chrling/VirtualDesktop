@@ -1,0 +1,34 @@
+.dropdown {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #66CCCC;
+}
+
+.dropdown__trigger {
+    line-height: 30px;
+}
+
+.dropdown__content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+}
+
+.dropdown--active .dropdown__content {
+    display: block;
+}
+
+.dropdown--active .dropdown__content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown--active .dropdown__content li {
+    padding: 5px 10px;
+}
+
+.dropdown--active .dropdown__content li:hover {
+    background-color: black;
+    color: white;
+}

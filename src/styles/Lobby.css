@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+}
+
+#options {
+  display: flex;
+  justify-content: space-evenly;
+  position: static;
+  width: 100%;
+  background-color: #F26B57; /* alternative colour scheme: #6B484F */
+  padding: 10px 0;
+}
+
+#options button {
+  background: black;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#options button:hover {
+  background: #333;
+}
+
+#roomslist {
+  width: 100%;
+  overflow-y: auto;
+  margin: 0;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+#roomslist th, td {
+  text-align: left;
+  padding: 20px;
+}
+
+#list-header ~ tr {
+  cursor: pointer;
+}
+
+#roomslist tbody > tr:nth-child(even) {
+  background: #FACA9F; /* alternative colour scheme: #D5D3C3 */
+}
+
+.popup-content {
+  width: 300px !important;
+  overflow: hidden;
+}
+
+#invite-popup {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#invite-popup div {
+  text-overflow: clip;
+  margin-bottom: 10px;
+}
