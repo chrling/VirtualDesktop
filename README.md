@@ -11,9 +11,3 @@ Chris Ling, Crystal Lim, Byron Leung
 This app is a collaborative virtual desktop where multiple users can share and work
 on a desktop window. Users can create notepad windows to collaboratively type into,
 create video player to watch the same video together, or browse/share photos together.
-
-## Source Code:
-https://github.com/UTSCC09/project-team_pay2win
-
-## Documentation:
-https://github.com/UTSCC09/project-team_pay2win/tree/master/doc
